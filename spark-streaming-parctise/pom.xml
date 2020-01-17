@@ -11,6 +11,7 @@
     <modules>
         <module>1-spark-streaming-basic</module>
         <module>2-spark-streaming-tuning</module>
+        <module>3-spark-streaming-fault-tolerance</module>
     </modules>
 
 
