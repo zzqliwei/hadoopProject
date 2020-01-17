@@ -12,6 +12,8 @@
         <module>1-spark-streaming-basic</module>
         <module>2-spark-streaming-tuning</module>
         <module>3-spark-streaming-fault-tolerance</module>
+        <module>4.1-kafka-basic</module>
+        <module>4.2-spark-streaming-datasource</module>
     </modules>
 
 
