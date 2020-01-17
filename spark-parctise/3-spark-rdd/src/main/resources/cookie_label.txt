@@ -1,0 +1,4 @@
+cookie1|固执
+cookie2|有偏见
+cookie3|执着
+cookie4|执行力很强
