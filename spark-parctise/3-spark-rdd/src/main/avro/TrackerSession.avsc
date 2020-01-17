@@ -1,0 +1,16 @@
+{"namespace": "com.westar.spark.rdd",
+ "type": "record",
+ "name": "TrackerSession",
+ "fields": [
+     {"name": "session_id", "type": "string"},
+     {"name": "session_server_time", "type": "string"},
+     {"name": "cookie", "type": "string"},
+     {"name": "cookie_label", "type": "string"},
+     {"name": "ip", "type": "string"},
+     {"name": "landing_url", "type": "string"},
+     {"name": "pageview_count", "type": "int"},
+     {"name": "click_count", "type": "int"},
+     {"name": "domain", "type": "string"},
+     {"name": "domain_label", "type": "string"}
+ ]
+}

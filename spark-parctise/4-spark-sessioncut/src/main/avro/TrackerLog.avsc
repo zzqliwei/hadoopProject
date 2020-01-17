@@ -1,0 +1,11 @@
+{"namespace": "com.westar.spark.session",
+ "type": "record",
+ "name": "TrackerLog",
+ "fields": [
+     {"name": "log_type", "type": "string"},
+     {"name": "log_server_time", "type": "string"},
+     {"name": "cookie", "type": "string"},
+     {"name": "ip", "type": "string"},
+     {"name": "url", "type": "string"}
+ ]
+}

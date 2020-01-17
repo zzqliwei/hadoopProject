@@ -1,0 +1,11 @@
+/hbase-practise/1-hbase-course/target/
+/hive-practise/target/
+/spark-parctise/1-spark-wordcount/target/
+/spark-parctise/2-spark-introduce/target/
+/spark-parctise/3-spark-rdd/target/
+/spark-parctise/4-spark-sessioncut/target/
+/spark-parctise/5-spark-rdd-practice/target/
+/spark-parctise/6.1-spark-submit-app/target/
+/spark-parctise/7-spark-scheduler/target/
+/spark-parctise/9-spark-dataset/target/
+/.idea/

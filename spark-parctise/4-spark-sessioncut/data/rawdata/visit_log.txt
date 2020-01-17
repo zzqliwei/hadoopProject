@@ -1,0 +1,13 @@
+#type|server time|cookie|ip|url
+pageview|2017-09-04 12:00:00|cookie1|127.0.0.3|https://www.baidu.com
+click|2017-09-04 12:00:02|cookie1|127.0.0.3|https://www.baidu.com
+pageview|2017-09-04 12:00:01|cookie2|127.0.0.4|https://www.baidu.com
+click|2017-09-04 12:00:04|cookie1|127.0.0.3|https://www.baidu.com
+pageview|2017-09-04 12:00:02|cookie2|127.0.0.4|http://news.baidu.com
+click|2017-09-04 12:00:03|cookie2|127.0.0.4|http://news.baidu.com
+pageview|2017-09-04 12:00:04|cookie2|127.0.0.4|http://music.baidu.com/?fr=tieba
+pageview|2017-09-04 12:45:01|cookie1|127.0.0.3|https://tieba.baidu.com/index.html
+click|2017-09-04 12:45:02|cookie1|127.0.0.3|https://tieba.baidu.com/index.html
+click|2017-09-04 12:45:03|cookie1|127.0.0.3|https://tieba.baidu.com/index.html
+hhhh|2017-09-04 12:45:03|cookie1|127.0.0.3|https://tieba.baidu.com/index.html
+3333ss|2017-09-04 12:45:03|cookie1|127.0.0.3|https://tieba.baidu.com/index.html
