@@ -1,0 +1,23 @@
+## 定义 sources、channels 以及 sinks
+agent1.sources = logSrc
+agent1.channels = fileChannel
+agent1.sinks = hdfsSink
+
+## logSrc 的配置
+agent1.sources.logSrc.type = exec
+agent1.sources.logSrc.command = tail -F /home/hadoop-twq/spark-course/steaming/flume-course/demo3/logs/webserver.log
+
+## hdfsSink 的配置
+agent1.sinks.hdfsSink.type = hdfs
+agent1.sinks.hdfsSink.hdfs.path = hdfs://master:9999/user/hadoop-twq/spark-course/steaming/flume/%y-%m-%d
+agent1.sinks.hdfsSink.hdfs.batchSize = 5
+agent1.sinks.hdfsSink.hdfs.useLocalTimeStamp = true
+
+## fileChannel 的配置
+agent1.channels.fileChannel.type = file
+agent1.channels.fileChannel.checkpointDir = /home/hadoop-twq/spark-course/steaming/flume-course/demo2-2/checkpoint
+agent1.channels.fileChannel.dataDirs = /home/hadoop-twq/spark-course/steaming/flume-course/demo2-2/data
+
+## 通过 fileChannel 连接 logSrc 和 hdfsSink
+agent1.sources.logSrc.channels = fileChannel
+agent1.sinks.hdfsSink.channel = fileChannel

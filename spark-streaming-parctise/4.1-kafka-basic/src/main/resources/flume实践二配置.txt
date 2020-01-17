@@ -1,0 +1,23 @@
+## 定义 sources、channels 以及 sinks
+agent1.sources = netcatSrc
+agent1.channels = memoryChannel
+agent1.sinks = hdfsSink
+
+## netcatSrc 的配置
+agent1.sources.netcatSrc.type = netcat
+agent1.sources.netcatSrc.bind = localhost
+agent1.sources.netcatSrc.port = 44445
+
+## hdfsSink 的配置
+agent1.sinks.hdfsSink.type = hdfs
+agent1.sinks.hdfsSink.hdfs.path = hdfs://master:9999/user/hadoop-twq/spark-course/steaming/flume/%y-%m-%d
+agent1.sinks.hdfsSink.hdfs.batchSize = 5
+agent1.sinks.hdfsSink.hdfs.useLocalTimeStamp = true
+
+## memoryChannel 的配置
+agent1.channels.memoryChannel.type = memory
+agent1.channels.memoryChannel.capacity = 100
+
+## 通过 memoryChannel 连接 netcatSrc 和 hdfsSink
+agent1.sources.netcatSrc.channels = memoryChannel
+agent1.sinks.hdfsSink.channel = memoryChannel
