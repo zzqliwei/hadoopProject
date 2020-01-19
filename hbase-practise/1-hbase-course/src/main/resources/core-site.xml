@@ -24,7 +24,7 @@
 
 	<property>
     		<name>fs.defaultFS</name>
-    		<value>hdfs://hadoop:9000</value>
+    		<value>hdfs://slave2:8020</value>
 		<description>表示HDFS的基本路径</description>
 	</property>
 </configuration>
