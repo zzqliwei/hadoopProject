@@ -1,0 +1,13 @@
+{"namespace": "com.westar.hbase.storage",
+  "type": "record",
+  "name": "Event",
+  "fields": [
+    {"name": "id", "type": "string"},
+    {"name": "eventId", "type": "string"},
+    {"name": "eventType", "type": "string"},
+    {"name": "partName", "type": "string"},
+    {"name": "partNumber", "type": "string"},
+    {"name": "version", "type": "long"},
+    {"name": "payload", "type": "string"}
+  ]
+}
