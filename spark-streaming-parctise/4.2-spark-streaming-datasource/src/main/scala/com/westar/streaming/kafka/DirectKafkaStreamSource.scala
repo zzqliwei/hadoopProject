@@ -21,8 +21,8 @@ import org.apache.spark.{SparkConf, SparkContext}
    *--executor-memory 512m \
    *--total-executor-cores 4 \
    *--executor-cores 2 \
-   */home/hadoop-twq/spark-course/streaming/spark-streaming-datasource-1.0-SNAPSHOT-jar-with-dependencies.jar \
-   *master:9092,slave1:9092,slave2:9092 topic1,topic2
+   * /home/hadoop-twq/spark-course/streaming/spark-streaming-datasource-1.0-SNAPSHOT-jar-with-dependencies.jar \
+   * master:9092,slave1:9092,slave2:9092 topic1,topic2
  **
  4、模拟发送消息：bin/kafka-console-producer.sh --broker-list master:9092 --topic topic1
   */

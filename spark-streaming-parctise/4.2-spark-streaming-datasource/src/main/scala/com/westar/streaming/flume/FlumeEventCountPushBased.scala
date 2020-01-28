@@ -26,7 +26,7 @@ import org.apache.spark.streaming.{Milliseconds, StreamingContext}
  *--executor-memory 512m \
  *--total-executor-cores 4 \
  *--executor-cores 2 \
- */home/hadoop-twq/spark-course/streaming/spark-streaming-datasource-1.0-SNAPSHOT-jar-with-dependencies.jar \
+ * /home/hadoop-twq/spark-course/streaming/spark-streaming-datasource-1.0-SNAPSHOT-jar-with-dependencies.jar \
  *172.26.232.97 44446
  **
  3、在slave1上 telnet slave1 44445 发送消息

@@ -29,7 +29,7 @@ import org.apache.spark.streaming.{Milliseconds, StreamingContext}
  *--executor-memory 512m \
  *--total-executor-cores 4 \
  *--executor-cores 2 \
- */home/hadoop-twq/spark-course/streaming/spark-streaming-datasource-1.0-SNAPSHOT-jar-with-dependencies.jar \
+ * /home/hadoop-twq/spark-course/streaming/spark-streaming-datasource-1.0-SNAPSHOT-jar-with-dependencies.jar \
  *master 44446
  **
  3、在master上 telnet localhost 44445 发送消息
