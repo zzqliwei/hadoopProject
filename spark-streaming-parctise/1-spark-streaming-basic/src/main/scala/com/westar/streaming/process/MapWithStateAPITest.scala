@@ -28,7 +28,7 @@ object MapWithStateAPITest {
 
     val stateSpec = StateSpec.function((currentBatchTime:Time,key:String,
       value: Option[Int], currentState: State[Long]) =>{
-      val sum = value.getOrElse(0).toLong + currentState.getOption().getOrElse(0K)
+      val sum = value.getOrElse(0).toLong + currentState.getOption().getOrElse(0L)
       val output = (key,sum)
       if(!currentState.isTimingOut()){
         currentState.update(sum)
@@ -51,8 +51,6 @@ object MapWithStateAPITest {
 
     //等待Streaming程序终止
     ssc.awaitTermination()
-
-
   }
 
 }
