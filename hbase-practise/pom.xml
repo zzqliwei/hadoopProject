@@ -10,7 +10,10 @@
     <version>1.0-SNAPSHOT</version>
     <modules>
         <module>1-hbase-course</module>
+        <module>2-hbase-practice-CDH</module>
     </modules>
+
+
 
 
 </project>
