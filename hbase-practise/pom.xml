@@ -11,6 +11,7 @@
     <modules>
         <module>1-hbase-course</module>
         <module>2-hbase-practice-CDH</module>
+        <module>3-map-tile</module>
     </modules>
 
 
