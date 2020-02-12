@@ -2,17 +2,19 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0"
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <parent>
+        <artifactId>hive-practise</artifactId>
+        <groupId>com.westar</groupId>
+        <version>1.0-SNAPSHOT</version>
+    </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>com.westar</groupId>
-    <artifactId>hive-practise</artifactId>
+    <artifactId>4-douban-analysis</artifactId>
     <packaging>pom</packaging>
-    <version>1.0-SNAPSHOT</version>
     <modules>
-        <module>spark-sql-hive</module>
-        <module>2-hive-course</module>
-        <module>3-hive-udf</module>
-        <module>4-douban-analysis</module>
+        <module>etl</module>
+        <module>web</module>
+        <module>etl-cdh</module>
     </modules>
 
 

@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:th="http://www.thymeleaf.org"
+      xmlns:sec="http://www.thymeleaf.org/thymeleaf-extras-springsecurity3">
+<head>
+    <title>douban-analsis</title>
+    <meta charset="UTF-8">
+</head>
+<body>
+
+<table border="1">
+    <tr>
+        <th>电影标志</th>
+        <th>电影名称</th>
+        <th>电影链接</th>
+        <th>电影评分</th>
+    </tr>
+    <tr th:each="movie : ${topTenMovies}">
+        <td th:text="${movie.movieId}"></td>
+        <td th:text="${movie.movieName}"></td>
+        <td th:text="${movie.url}"></td>
+        <td th:text="${movie.commentScore}"></td>
+    </tr>
+</table>
+</body>
+</html>
