@@ -1,0 +1,4 @@
+John Doe	10000.0	Mary Sith,Todd Jones	Federal Taxes:0.2,State Taxes:0.1,Insurance:0.1	Michigan Ave.,Chicago,IL,60600
+Mary Smith	80000.0	Bill King	Federal Taxes:0.2,State Taxes:0.05,Insurance:0.1	Ontario St.,Chicago,IL,60601
+Todd Jones	70000.0		Federal Taxes:0.15,State Taxes:0.03,Insurance:0.1	Chicago Ave.,Oak Park,NY,60700
+Bill King	60000.0		Federal Taxes:0.15,State Taxes:0.03,Insurance:0.1	Obscure Dr.,Obscur,CA,60100

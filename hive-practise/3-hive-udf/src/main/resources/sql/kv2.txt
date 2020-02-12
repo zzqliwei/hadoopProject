@@ -1,0 +1,7 @@
+1	Test	23
+3	wome	45
+2	key	34
+5	ki	34
+6	lop	25
+7	jeffy	23
+10	fg	23

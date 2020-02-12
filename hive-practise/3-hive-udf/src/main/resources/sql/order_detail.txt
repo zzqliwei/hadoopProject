@@ -1,0 +1,10 @@
+zhangsan,device1,new,67.50,2
+lisi,device2,old,88.90,1
+wangwu,device3,new,99.90,3
+higong,device4,new,89.88,1
+jkling,device5,new,23.22,1
+kong,device1,old,44.50,2
+ling,device6,old,45.33,3
+kling,device7,new,567.23,6
+jeffy,device8,new,57.23,5
+katy,device9,new,67.23,5
