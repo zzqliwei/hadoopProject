@@ -1,6 +1,5 @@
 package com.westar.streaming.pageview
 
-import org.apache.avro.ipc.specific.PageView
 import org.apache.spark.streaming.{Seconds, StreamingContext}
 import org.apache.spark.{SparkConf, SparkContext}
 

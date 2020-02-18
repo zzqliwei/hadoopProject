@@ -1,0 +1,1 @@
+SET mapreduce.framework.name=local

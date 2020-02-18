@@ -13,6 +13,7 @@
         <module>2-hive-course</module>
         <module>3-hive-udf</module>
         <module>4-douban-analysis</module>
+        <module>5-spark-nba-player</module>
     </modules>
 
 

@@ -10,6 +10,12 @@
     <modelVersion>4.0.0</modelVersion>
 
     <artifactId>etl-cdh</artifactId>
+    <repositories>
+    <repository>
+    <id>cdh</id>
+    <url>https://repository.cloudera.com/content/repositories/releases/</url>
+    </repository>
+    </repositories>
 
     <properties>
         <maven.compiler.target>1.8</maven.compiler.target>
