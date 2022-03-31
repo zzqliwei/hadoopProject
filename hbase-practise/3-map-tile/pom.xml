@@ -36,7 +36,7 @@
         <scala.version>2.11.8</scala.version>
         <protobuf.version>2.5.0</protobuf.version>
         <jts.version>1.15.1</jts.version>
-        <spring.boot.version>2.0.1.RELEASE</spring.boot.version>
+        <spring.boot.version>2.5.12</spring.boot.version>
     </properties>
 
     <dependencyManagement>
